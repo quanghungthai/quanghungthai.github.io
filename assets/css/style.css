@@ -407,7 +407,8 @@ section {
   height: 60px;
   display: block;
   background: none;
-  border-radius: 0;
+  border-radius: 25px;
+  border: 2px solid #149ddd;
 }
 
 .skills .progress .skill {
@@ -420,10 +421,27 @@ section {
   color: #050d18;
 }
 
-.skills .progress .skill .val {
+.skills .progress .skill .valExcellent {
+  float: right;
+  font-style: normal;
+  color: #18d26e;
+}
+
+.skills .progress .skill .valGood {
+  float: right;
+  font-style: normal;
+  color: #1f5297;
+}
+
+.skills .progress .skill .valAverage {
   float: right;
   font-style: normal;
 }
+
+/* .skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+} */
 
 .skills .progress-bar-wrap {
   background: #dce8f8;
