@@ -418,8 +418,13 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
+  font-size: larger;
   font-family: "Poppins", sans-serif;
   color: #050d18;
+}
+
+.skills .progress .skill .skill-item{
+  font-size: medium;
 }
 
 .skills .progress .skill .valExcellent {
