@@ -278,7 +278,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
@@ -406,8 +406,8 @@ section {
 .skills .progress {
   height: 5em;
   display: block;
-  background: #37b3ed;
-  border-radius: 25px;
+  background: none;
+  border-radius: none;
   margin: 5px;
   /* border: 2px solid #149ddd; */
 }
