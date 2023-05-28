@@ -11,20 +11,50 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  background: #121212;
 }
 
 a {
-  color: #149ddd;
+  color: #ABB2B9;
   text-decoration: none;
 }
 
 a:hover {
-  color: #37b3ed;
+  color: #F4D03F;
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+}
+ 
+h1{
+  font-size:3rem;
+}
+
+.item-bold{
+  color:#ABB2B9;
+}
+
+.item-title{
+  color:#5DADE2 !important;
+}
+
+.item-text{
+  color:#99A3A4;
+  font-size:18px;
+}
+
+.item-place{
+  color:#52BE80;
+}
+
+.bi-telephone-fill{
+  color:#ABB2B9 !important; 
+}
+
+.bi-envelope-fill{
+  color:#ABB2B9 !important; 
 }
 
 /*--------------------------------------------------------------
@@ -37,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #99A3A4;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -73,15 +103,16 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background-color: #1C2833 ;
   overflow-y: auto;
 }
 
 #header .profile img {
-  margin: 15px auto;
+  margin: 1rem auto;
   display: block;
-  width: 120px;
-  border: 8px solid #2c2f3f;
+  max-width: 10rem;
+  max-height: 10rem;
+  /* border: 8px solid #fff; */
 }
 
 #header .profile h1 {
@@ -115,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: #99A3A4;
   color: #fff;
   text-decoration: none;
 }
@@ -159,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .nav-menu a i, .nav-menu a:focus i {
@@ -170,11 +201,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
   text-decoration: none;
-  color: #fff;
+  color: #F4D03F;
+  font-weight:bold;
 }
 
 .nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
-  color: #149ddd;
+  color: #99A3A4;
 }
 
 /* Mobile Navigation */
@@ -187,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #99A3A4;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -253,7 +285,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #99A3A4;
 }
 
 @media (min-width: 1024px) {
@@ -283,7 +315,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #121212;
 }
 
 .section-title {
@@ -296,7 +328,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #F5B041;
 }
 
 .section-title h2::after {
@@ -305,7 +337,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #99A3A4;
   bottom: 0;
   left: 0;
 }
@@ -324,6 +356,7 @@ section {
 }
 
 .about .content ul {
+  font-size:18px;
   list-style: none;
   padding: 0;
 }
@@ -341,7 +374,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #149ddd;
+  color: #99A3A4;
   line-height: 0;
 }
 
@@ -364,7 +397,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #149ddd;
+  color: #99A3A4;
   float: left;
   line-height: 0;
 }
@@ -397,30 +430,30 @@ section {
 }
 
 .facts .count-box a:hover {
-  color: #1f5297;
+  color: #99A3A4;
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 5em;
+  height: 10rem;
   display: block;
   background: none;
   border-radius: none;
-  margin: 5px;
-  /* border: 2px solid #149ddd; */
+  /* margin: 5px; */
+  /* border: 2px solid #99A3A4; */
 }
 
 .skills .progress .skill {
-  padding: 0;
-  margin: 0 0 6px 0;
+  /* padding: 0; */
+  /* margin: 0 0 6px 0; */
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-size: larger;
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #5DADE2;
 }
 
 
@@ -434,7 +467,7 @@ section {
 .skills .progress .skill .valGood {
   float: right;
   font-style: normal;
-  color: #1f5297;
+  color: #99A3A4;
 }
 
 .skills .progress .skill .valAverage {
@@ -456,7 +489,16 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #149ddd;
+  background-color: #99A3A4;
+}
+
+.skill-item{
+  color: #99A3A4;
+  font-size:18px;
+}
+
+.skill{
+  color: #99A3A4;
 }
 
 /*--------------------------------------------------------------
@@ -473,27 +515,28 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #99A3A4;
   position: relative;
 }
 
 .resume .resume-item h4 {
   line-height: 18px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #2eafec;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  background: #99A3A4;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  color:#fff;
 }
 
 .resume .resume-item ul {
@@ -517,7 +560,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #1f5297;
+  border: 2px solid #99A3A4;
 }
 
 /*--------------------------------------------------------------
@@ -551,7 +594,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: #99A3A4;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -641,11 +684,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #99A3A4;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #99A3A4;
 }
 
 .portfolio-details .portfolio-info {
@@ -699,10 +742,10 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
+  background: #37b3ed;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
+  border: 1px solid #fff;
 }
 
 .projects .icon i {
@@ -712,11 +755,11 @@ section {
 }
 
 .projects .icon-box:hover .icon {
-  background: #fff;
+  /* background: #52BE80; */
 }
 
 .projects .icon-box:hover .icon i {
-  color: #149ddd;
+  color: #fff;
 }
 
 .projects .title {
@@ -727,17 +770,19 @@ section {
 }
 
 .projects .title a {
-  color: #343a40;
+  color: #37b3ed;
+  font-size:20px;
 }
 
 .projects .title a:hover {
-  color: #149ddd;
+  color: #F4D03F;
 }
 
 .projects .description {
   margin-left: 80px;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 18px;
+  color: #99A3A4;
 }
 
 /*--------------------------------------------------------------
@@ -819,11 +864,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #99A3A4;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #99A3A4;
 }
 
 /*--------------------------------------------------------------
@@ -842,7 +887,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #99A3A4;
   float: left;
   width: 44px;
   height: 44px;
@@ -893,12 +938,12 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #149ddd;
+  background: #99A3A4;
   color: #fff;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #149ddd;
+  background: #99A3A4;
   color: #fff;
 }
 
@@ -986,7 +1031,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #149ddd;
+  background: #99A3A4;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1073,7 +1118,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background: #1C2833;
 }
 
 #footer .copyright {

@@ -1,2 +1,2 @@
 # quanghungthai.github.io
-My Website
+My Resume 
