@@ -10,17 +10,17 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
-  background: #1e1e1e;
+  color: #1d1d1d;
+  background: #fff;
 }
 
 a {
-  color: #F4D03F;
+  color: #1d1d1d;
   text-decoration: none;
 }
 
 a:hover {
-  color: #F4D03F;
+  color: #4d4949;
   text-decoration: none;
 }
 
@@ -33,15 +33,15 @@ h1{
 }
 
 .item-bold{
-  color:#ABB2B9;
+  color:#12181b;
 }
 
 .item-title{
-  color:#5DADE2 !important;
+  color:#12181b !important;
 }
 
 .item-text{
-  color:#99A3A4;
+  color:#12181b;
   font-size:18px;
 }
 
@@ -103,8 +103,12 @@ h1{
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background-color: #252526 ;
+  background-color: #fdfde4;
   overflow-y: auto;
+}
+
+#header .profile {
+  margin-top: 50%;
 }
 
 #header .profile img {
@@ -186,7 +190,7 @@ h1{
 .nav-menu a, .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #616269;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -201,7 +205,7 @@ h1{
 
 .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
   text-decoration: none;
-  color: #F4D03F;
+  color: #5c5c5c;
   font-weight:bold;
 }
 
@@ -328,7 +332,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #F5B041;
+  color: #1d1d1d;
 }
 
 .section-title h2::after {
@@ -337,7 +341,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #99A3A4;
+  background: #1d1d1d;
   bottom: 0;
   left: 0;
 }
@@ -374,7 +378,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #99A3A4;
+  color: #173b6c;
   line-height: 0;
 }
 
@@ -436,10 +440,15 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+.skills{
+  background: #fff;
+
+}
+
 .skills .progress {
   height: 10rem;
   display: block;
-  background: none;
+  background: #fff;
   border-radius: none;
   /* margin: 5px; */
   /* border: 2px solid #99A3A4; */
@@ -453,7 +462,7 @@ section {
   font-weight: 600;
   font-size: 20px;
   font-family: "Poppins", sans-serif;
-  color: #5DADE2;
+  color: #1d1d1d;
 }
 
 
@@ -461,13 +470,13 @@ section {
 .skills .progress .skill .valExcellent {
   float: right;
   font-style: normal;
-  color: #18d26e;
+  color: #1d1d1d;
 }
 
 .skills .progress .skill .valGood {
   float: right;
   font-style: normal;
-  color: #99A3A4;
+  color: #1d1d1d;
 }
 
 .skills .progress .skill .valAverage {
@@ -493,7 +502,7 @@ section {
 }
 
 .skill-item{
-  color: #99A3A4;
+  color: #12181b;
   font-size:18px;
 }
 
@@ -509,7 +518,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #12181b;
 }
 
 .resume .resume-item {
@@ -525,7 +534,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #2eafec;
+  color: #12181b;
   margin-bottom: 10px;
 }
 
@@ -742,7 +751,7 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #37b3ed;
+  background: #ececec;
   border-radius: 50%;
   transition: 0.5s;
   border: 1px solid #fff;
@@ -770,7 +779,7 @@ section {
 }
 
 .projects .title a {
-  color: #37b3ed;
+  color: #12181b;
   font-size:20px;
 }
 
@@ -782,7 +791,7 @@ section {
   margin-left: 80px;
   line-height: 24px;
   font-size: 18px;
-  color: #99A3A4;
+  color: #12181b;
 }
 
 /*--------------------------------------------------------------
@@ -1118,7 +1127,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #252526;
+  /* background: #252526; */
 }
 
 #footer .copyright {
