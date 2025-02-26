@@ -4,25 +4,24 @@ const counter = document.querySelector(".counter-number");
 // Function to fetch and update the visitor count
 async function updateCounter() {
   try {
-    let response = await fetch("https://nrssqz6l25fk26efqunamso6ce0euran.lambda-url.us-east-1.on.aws/", {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json"
-      }
-    });
+    let response = await fetch("https://nrssqz6l25fk26efqunamso6ce0euran.lambda-url.us-east-1.on.aws/");
 
-    // Check if the response is successful
+    console.log("Raw Response:", response); // Debug network response
+
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
 
-    let data = await response.json();
+    let textData = await response.text(); // Read response as plain text
+    let count = parseInt(textData, 10); // Convert text to number
 
-    // Update the counter element only if data is valid
-    if (data && typeof data.count === "number") {
-      counter.innerHTML = `Views : ${data.count}`;
+    console.log("Parsed Count:", count); // Debug parsed data
+
+    // Update the counter element only if data is a valid number
+    if (!isNaN(count)) {
+      counter.innerHTML = `Views : ${count}`;
     } else {
-      throw new Error("Invalid data format received from the server.");
+      throw new Error("Invalid number format received from the server.");
     }
   } catch (error) {
     console.error("Error fetching view count:", error);
