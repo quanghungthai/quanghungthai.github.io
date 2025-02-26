@@ -57,6 +57,6 @@ Currently working at **RACE Services**, where I design, develop, and optimize ba
 I would be delighted to connect with you! Feel free to reach out to me via the following channels:
 
 - **Email**: [quanghungthai99@gmail.com](mailto:quanghungthai99@gmail.com)  
-- **Website**: [qhthai.dev](https://qhthai.dev)  
+- **Website**: [qhthai.dev](https://hthai.info)  
 - **LinkedIn**: [https://www.linkedin.com/in/quang-hung-thai-5b617b1b3/](https://www.linkedin.com/in/quang-hung-thai-5b617b1b3/)  
 - **Phone**: (+61) 480 244 297  
